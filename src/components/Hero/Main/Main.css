@@ -1,0 +1,7 @@
+.button {
+  /* Outer shadow */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+  /* Inner shadow */
+  /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+}
