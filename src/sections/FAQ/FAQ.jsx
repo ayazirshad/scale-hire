@@ -53,8 +53,11 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="bg-[#FFFFFF] mt-5 flex flex-col items-center py-24">
-      <h2 className="font-semibold text-5xl">FAQ</h2>
+    <div
+      className="bg-[#FFFFFF] mt-5 flex flex-col items-center py-24 px-5"
+      id="faq"
+    >
+      <h2 className="font-semibold text-4xl md:text-5xl">FAQ</h2>
       <div className="mt-8">
         <AccordionExpandDefault questions={questions} />
       </div>

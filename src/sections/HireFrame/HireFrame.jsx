@@ -2,12 +2,12 @@ import React from "react";
 
 const HireFrame = () => {
   return (
-    <div className="text-[#FFFFFF] relative flex justify-center items-center">
-      <div className="w-[816px] container mx-auto flex flex-col justify-center items-center my-20">
-        <h1 className="text-center text-[40px]">
+    <div className="text-[#FFFFFF] relative flex justify-center items-center px-5">
+      <div className="max-w-[816px] container mx-auto flex flex-col justify-center items-center my-20">
+        <h1 className="text-center  text-[28px] sm:text-[35px] md:text-[40px]">
           Hire faster without sacrificing quality
         </h1>
-        <p className="text-lg text-[#CCCFD7] w-[350px] text-center mt-4">
+        <p className="text-lg text-[#CCCFD7] max-w-[350px] text-center mt-4">
           Scale Hire ensures you only engage with candidates who meet your
           standards.
         </p>
@@ -17,7 +17,7 @@ const HireFrame = () => {
           </button>
         </div>
       </div>
-      <div className="w-[1070px] h-[822px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] -z-10"></div>
+      {/* <div className="w-[1070px] h-[822px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] -z-10"></div> */}
     </div>
   );
 };

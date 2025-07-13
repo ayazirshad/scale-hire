@@ -4,7 +4,7 @@ import Main from "../../components/Hero/Main/Main";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="w-full">
       <Navbar />
       <Main />
     </div>

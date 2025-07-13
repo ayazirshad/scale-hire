@@ -4,8 +4,11 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const Testimonial = () => {
   return (
-    <div className="text-[#FFFFFF] flex flex-col items-center mb-8">
-      <div className="w-[628px] mt-24">
+    <div
+      className="text-[#FFFFFF] flex flex-col items-center mb-8 px-5"
+      id="reviews"
+    >
+      <div className="max-w-[628px] mt-24">
         <div className="flex justify-between items-center">
           <p className="w-11 h-11 rounded-full bg-[#F2F7FF] text-[#030B24] flex justify-center items-center pt-5 font-bold text-5xl">
             “
@@ -14,7 +17,7 @@ const Testimonial = () => {
             <img src={waveroLogo} alt="wavero" className="h-full" />
           </div>
         </div>
-        <p className="text-[32px] mt-5">
+        <p className="text-[28px] sm:text-[32px] mt-5">
           We loved using SorsX. Lorem ipsum dolor sit amet consectetur. Nec
           adipiscing feugiat interdum molestie metus.
         </p>
@@ -37,8 +40,8 @@ const Testimonial = () => {
             </button>
           </div>
         </div>
+        <div className="mt-16 w-full bg-linear-to-r from-[#161514] via-[#919191] to-[#161514] h-[1px]"></div>
       </div>
-      <div className="mt-16 w-[628px] bg-linear-to-r from-[#161514] via-[#919191] to-[#161514] h-[1px]"></div>
     </div>
   );
 };

@@ -17,14 +17,14 @@ const Footer = () => {
   ];
 
   return (
-    <div className="text-[#FFFFFF] p-20 pb-10">
+    <div className="text-[#FFFFFF] px-5 md:px-10 lg:px-20 py-20 pb-10 ">
       {/* logo  */}
-      <div className="flex justify-between">
-        <h1 className="text-[60px] w-[600px]">
+      <div className="sm:flex justify-between">
+        <h1 className="text-[35px] md:text-[47px] lg:text-[60px] max-w-[600px]">
           Have questions? Schedule a call today.
         </h1>
-        <div className="mt-20">
-          <div className="rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.25)] mt-7">
+        <div className="mt-10 sm:mt-12 md:mt-16 lg:mt-20">
+          <div className="rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.25)] mt-7 w-max">
             <button className="bg-[#254CF8] px-6 py-3 w-[149px] rounded-lg shadow-[inset_0_7px_9.3px_rgba(205,205,205,0.2)] hover:cursor-pointer">
               Start Today
             </button>
@@ -34,12 +34,12 @@ const Footer = () => {
       {/* line  */}
       <div className="w-full mt-20 bg-[#404040] h-[1px]"></div>
 
-      {/* links  */}
-      <div className="mt-20 mb-28 flex justify-between">
-        <div className="w-[161px]">
+      {/* logo & links  */}
+      <div className="mt-20 mb-28 sm:flex sm:gap-5 justify-between">
+        <div className="w-32 md:w-[161px]">
           <img src={footerLogo} alt="sorsX" />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-x-32 gap-y-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-20 lg:gap-x-28 gap-y-5 mt-10 sm:mt-0">
           {pages.map((item, index) => {
             return (
               <a href={item.link} key={index} className="w-max">
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
       </div>
       {/* license */}
-      <div className="flex justify-between text-[#8A8A89] text-[13.5px] ">
+      <div className="flex justify-between text-[#8A8A89] text-[13.5px] flex-wrap gap-4">
         <p>&copy;2025 SorsX. All rights reserved</p>
         <p>
           101 Marlow Street. #12-05 Clife Parkview. Singapore 059020.
