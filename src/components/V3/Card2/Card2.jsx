@@ -5,7 +5,7 @@ const Card2 = () => {
   return (
     <div className="bg-[#161514] text-[#FFFFFF] overflow-hidden rounded-3xl relative w-full">
       <div className="md:flex md:flex-row-reverse py-8 md:py-16 gap-5">
-        <div className="w-full md:w-[45%] py-10 px-8 lg:px-20 flex flex-col justify-center ">
+        <div className="w-full md:w-[45%] py-10 px-8 lg:px-16 flex flex-col justify-center ">
           <div
             className="p-[0.7px] w-10 h-10 rounded-full bg-linear-to-br from-[#FFFFFF] via-[#333333] to-[#FFFFFF] backdrop-blur-lg
           "
@@ -14,10 +14,10 @@ const Card2 = () => {
               2
             </button>
           </div>
-          <h3 className="mt-5 font-semibold text-3xl max-w-[290px]">
+          <h3 className="mt-5 font-semibold text-3xl max-w-[321px]">
             Automated reach out to qualified candidates
           </h3>
-          <p className="text-[#F0F0F0] mt-4 max-w-[322px]">
+          <p className="text-[#F0F0F0] mt-4 max-w-[315px]">
             SorsX AI reach out to candidates who match your job. They complete a
             quick AI video interview, answering your elimination questions.
           </p>
