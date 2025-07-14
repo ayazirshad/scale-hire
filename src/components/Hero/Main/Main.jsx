@@ -26,7 +26,7 @@ const Main = () => {
         <img src={star} alt="star ellipse" />
       </div>
       {/* ellipse 19  */}
-      <div className="w-44 sm:w-72 md:w-[450px] lg:w-[628px] h-[222px] sm:h-[252px] md:h-[350px] lg:h-[522px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] sm:top-[390px] md:top-[400px] lg:top-[410px]"></div>
+      <div className="w-44 sm:w-72 md:w-[650px] lg:w-[828px] h-[222px] sm:h-[252px] md:h-[550px] lg:h-[622px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] sm:top-[390px] md:top-[400px] lg:top-[410px]"></div>
 
       {/* table  */}
       <div className="max-w-[1104px] h-[464px] rounded-[20px] md:rounded-[32px] bg-white/10 backdrop-blur-3xl p-4 z-0 absolute top-[411.7px] md:top-[431.5px] mx-5">

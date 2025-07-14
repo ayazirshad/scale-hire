@@ -1,7 +1,7 @@
 import React from "react";
 import card3Pic from "../../../assets/V3/card3.png";
 
-const Card3 = () => {
+const ReadyToHire = () => {
   return (
     <div className="bg-[#161514] text-[#FFFFFF] overflow-hidden rounded-3xl relative w-full">
       <div className="md:flex py-8 md:py-16 gap-5">
@@ -33,4 +33,4 @@ const Card3 = () => {
   );
 };
 
-export default Card3;
+export default ReadyToHire;

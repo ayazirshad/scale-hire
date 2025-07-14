@@ -19,7 +19,7 @@ const HireFrame = () => {
           </a>
         </div>
       </div>
-      <div className="w-44 sm:w-72 md:w-[550px] lg:w-[828px] h-[222px] sm:h-[252px] md:h-[450px] lg:h-[622px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] -z-10"></div>
+      <div className="w-44 sm:w-72 md:w-[650px] lg:w-[828px] xl:w-[1028px] h-[222px] sm:h-[252px] md:h-[550px] lg:h-[622px] xl:h-[722px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] md:top-[340px] -z-10"></div>
     </div>
   );
 };
