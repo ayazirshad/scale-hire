@@ -12,12 +12,14 @@ const HireFrame = () => {
           standards.
         </p>
         <div className="rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.25)] mt-7">
-          <button className="bg-[#254CF8] px-6 py-3 w-[149px] rounded-lg shadow-[inset_0_7px_9.3px_rgba(205,205,205,0.2)] hover:cursor-pointer">
-            Start Today
-          </button>
+          <a href="/">
+            <button className="bg-[#254CF8] px-6 py-3 w-[149px] rounded-lg shadow-[inset_0_7px_9.3px_rgba(205,205,205,0.2)] hover:cursor-pointer">
+              Start Today
+            </button>
+          </a>
         </div>
       </div>
-      {/* <div className="w-[1070px] h-[822px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] -z-10"></div> */}
+      <div className="w-44 sm:w-72 md:w-[550px] lg:w-[828px] h-[222px] sm:h-[252px] md:h-[450px] lg:h-[622px] bg-gradient-to-r from-[#EB008B]/80 to-[#F9EC31]/80 blur-3xl rounded-full absolute top-[370px] -z-10"></div>
     </div>
   );
 };

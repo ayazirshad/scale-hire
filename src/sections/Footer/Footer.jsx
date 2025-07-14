@@ -25,9 +25,11 @@ const Footer = () => {
         </h1>
         <div className="mt-10 sm:mt-12 md:mt-16 lg:mt-20">
           <div className="rounded-lg shadow-[0_4px_8px_rgba(0,0,0,0.25)] mt-7 w-max">
-            <button className="bg-[#254CF8] px-6 py-3 w-[149px] rounded-lg shadow-[inset_0_7px_9.3px_rgba(205,205,205,0.2)] hover:cursor-pointer">
-              Start Today
-            </button>
+            <a href="/">
+              <button className="bg-[#254CF8] px-6 py-3 w-[149px] rounded-lg shadow-[inset_0_7px_9.3px_rgba(205,205,205,0.2)] hover:cursor-pointer">
+                Start Today
+              </button>
+            </a>
           </div>
         </div>
       </div>

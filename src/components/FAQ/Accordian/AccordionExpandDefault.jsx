@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const AccordionExpandDefault = ({ questions }) => {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 rounded-md">
       {questions.map((item, index) => {
         return (
           <Accordion className="shadow-none py-2" key={index}>
@@ -18,11 +18,7 @@ const AccordionExpandDefault = ({ questions }) => {
               <Typography component="span">{item.summary}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
-              </Typography>
+              <Typography>{item.detail}</Typography>
             </AccordionDetails>
           </Accordion>
         );

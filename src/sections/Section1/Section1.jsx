@@ -26,11 +26,11 @@ const Section1 = () => {
   ];
   return (
     <div
-      className="bg-[#161514] grid place-items-center mt-[360px] sm:mt-[440px] md:mt-[530px] relative text-[#FFFFFF] w-full px-5"
+      className="bg-[#161514] grid place-items-center mt-[390px] sm:mt-[440px] md:mt-[530px] relative text-[#FFFFFF] w-full px-5"
       id="whyScaleHire"
     >
       <div className="bg-[#161514] h-20 w-full blur-sm sm:blur-md md:blur-lg absolute -top-10"></div>
-      <h2 className="mt-20 text-3xl md:text-4xl text-center">
+      <h2 className="mt-16 text-2xl sm:text-3xl md:text-4xl text-center">
         Why SorsX Scale Hire is Different
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1104px] mt-16 mb-20">
